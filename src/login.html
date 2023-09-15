@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+            body {
+                background-color: gray;
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .form-container {
+                background-color: white;
+                width: 30rem;
+                height: 40rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .form-item {
+                margin: 2rem auto;
+            }
+
+            .form-item label {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            .form-item input {
+                width: 20rem;
+                height: 2rem;
+            }
+            
+            .form-container button {
+                width: 100%;
+                height: 5rem;
+            }
+
+            .form-logo {
+                background-color: lightgreen;
+                width: 10rem;
+                height: 10rem;
+                margin-bottom: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="form-logo"></div>
+            <form action="" method="post">
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-item">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
