@@ -10,3 +10,4 @@ A collection of simple, yet useful fragments that can be used in webpage project
 - navbar
 - login
 - position
+- header + main + footer
