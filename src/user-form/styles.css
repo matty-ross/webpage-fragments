@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 2em;
+    background-color: white;
+}
+
+.form-inputs {
+    display: flex;
+}
+
+.form-column {
+    width: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.form-submit {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.input-container {
+    margin: 1em auto;
+}
+
+.input-container label {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.input-container:has(input[required]) label::after {
+    content: ' *';
+    color: red;
+}
+
+#profile-preview {
+    width: 80%;
+}
